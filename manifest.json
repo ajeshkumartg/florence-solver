@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Florence AI Solver",
+  "version": "3.0",
+  "description": "Auto-fills quizzes using Groq, Gemini, or OpenAI.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/*",
+    "https://api.openai.com/*",
+    "https://api.groq.com/*",
+    "https://api.mistral.ai/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
