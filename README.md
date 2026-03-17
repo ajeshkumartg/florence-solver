@@ -1,6 +1,6 @@
 # Florence AI Solver
 
-A powerful browser extension that automatically solves quiz questions using advanced AI models. Supports multiple AI providers including Groq, Google Gemini, OpenAI, and Mistral AI.
+A powerful browser extension that automatically solves Florence Academy e-learning questions using advanced AI models. Supports multiple AI providers including Groq, Google Gemini, OpenAI, and Mistral AI.
 
 ## 🚀 Features
 
